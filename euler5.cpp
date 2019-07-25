@@ -4,8 +4,7 @@
 
 using namespace std;
 
-int
- gcm (long long a, long long b)
+int gcm (long long a, long long b)
 
 {
   while (a != 0)
@@ -24,8 +23,7 @@ int
 }
 
 
-int 
-lcm (long long a, long long b)
+int lcm (long long a, long long b)
 
 {
 
@@ -34,8 +32,7 @@ lcm (long long a, long long b)
 }
 
 
-int
-main ()
+int main ()
 
 {
   long long result = 1;
