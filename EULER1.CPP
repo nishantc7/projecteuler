@@ -1,6 +1,5 @@
-#include<iostream.h>
-#include<conio.h>
-
+#include<iostream>
+using namespace std;
 int main()
 {
     int su=0;
@@ -13,5 +12,4 @@ int main()
 	}
     }
     cout<< su <<"\n";
-    getch();
 }
