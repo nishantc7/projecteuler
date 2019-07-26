@@ -1,9 +1,8 @@
-#include<iostream.h>
-#include<conio.h>
+#include<iostream>
+using namespace std;
 
 int main()
 {
-clrscr();
 long sum=0,a=1,b=2,c=0;
 while(1)
 {
@@ -20,6 +19,4 @@ while(1)
 	b=c;
 }
 cout<<sum;
-getch()   ;
 }
-
