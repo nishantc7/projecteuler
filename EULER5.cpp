@@ -25,7 +25,7 @@ int lcm (long long a, long long b)
 
 {
 
-  return a * (b / gcm (a, b));
+  return  ( (a*b)/ gcm (a, b));
 
 }
 
